@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.logo {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: -5%;
+}
+
+.navLink {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink:hover {
+    color: rgb(192, 124, 255);
+}
+
+.btnContatos {
+    background-color: #ffffff;
+    color: black;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.btnContatos:hover{
+    color: rgb(255, 255, 255);
+     background-color:rgb(192, 124, 255);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgb(192, 124, 255);
+}

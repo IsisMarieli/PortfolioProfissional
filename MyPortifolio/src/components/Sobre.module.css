@@ -1,0 +1,54 @@
+.sobre {
+    position: relative; 
+    width: 100%;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    gap: 40px;
+}
+
+.sobre img {
+    width: 260px;
+    height: 331px;
+    object-fit: cover;
+     border-radius: 10px 90px 10px 90px;
+}
+
+.texto {
+    max-width: 600px;
+    text-align: left;
+}
+
+.texto h1 {
+    font-weight: bold;
+}
+
+.texto p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        margin-top: 40px;
+        flex-direction: column;
+        height: auto; 
+        padding: 20px;
+    }
+
+    .sobre img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px 90px 10px 90px;
+        margin-bottom: 20px;
+    }
+
+    .texto {
+        max-width: 100%;
+        text-align: center;
+    }
+}
