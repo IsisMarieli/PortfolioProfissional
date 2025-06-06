@@ -7,12 +7,14 @@
 
 .blur {
     position: absolute;
+    width: 20rem;
     height: 0;
-    width: 30rem;
-    top: 20%;
-    right: 0;
-    box-shadow: 0 120px 700px 90px rgb(192, 124, 255);
-    transform: rotate(-30deg);
+    top: 50%;
+    right: 10%;
+    background:rgba(192, 124, 255, 0.5);
+    border-radius: 10px 90px 10px 90px;
+    box-shadow: 0 0 200px 90px rgba(192, 124, 255, 0.899); 
+    transform: rotate(-180deg);
     z-index: -1;
 }
 
@@ -80,5 +82,48 @@ h1{
     }
     50% {
         transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .content {
+        margin-left: 0;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    
+    .prototipos {
+        position: relative;
+        right: auto;
+        width: clamp(250px, 80vw, 400px);
+        margin: 2rem auto;
+        margin-top: 50%;
+    }
+    
+    .blur {
+        margin-top: 80%;
+        right: 50%;
+        transform: translateX(50%) rotate(-180deg);
+    }
+}
+
+@media (max-width: 480px) {
+    .socialButtons {
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .blur {
+        top: 20%;
+        opacity: 0.6;
     }
 }

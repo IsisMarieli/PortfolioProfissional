@@ -1,5 +1,5 @@
 .sobre {
-    position: relative; 
+    position: relative;
     width: 100%;
     min-height: 100vh;
     color: rgb(255, 255, 255);
@@ -10,11 +10,36 @@
     gap: 40px;
 }
 
-.sobre img {
+.blur {
+    position: absolute;
+    width: 65rem;
+    height: 25rem;
+    top: 20%;
+    right: 14%;
+    background: rgba(192, 124, 255, 0.5);
+    border-radius: 10px 90px 10px 90px;
+    box-shadow: 0 0 200px 10px rgba(192, 124, 255, 0.5);
+    transform: rotate(-20deg);
+    z-index: -1;
+    animation: floatAnimation 2s ease-in-out infinite;
+}
+
+.sobre .minhafoto {
     width: 260px;
     height: 331px;
     object-fit: cover;
-     border-radius: 10px 90px 10px 90px;
+    border-radius: 10px 90px 10px 90px;
+}
+
+@keyframes floatAnimation {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .texto {
@@ -35,16 +60,23 @@
     .sobre {
         margin-top: 40px;
         flex-direction: column;
-        height: auto; 
+        height: auto;
         padding: 20px;
     }
 
-    .sobre img {
+    .sobre .minhafoto {
         width: 100%;
         max-width: 300px;
         height: auto;
         border-radius: 10px 90px 10px 90px;
         margin-bottom: 20px;
+    }
+
+    .blur{
+        width: 22rem;
+        height: 40rem;
+        top: 10%;
+        right: 1rem;
     }
 
     .texto {

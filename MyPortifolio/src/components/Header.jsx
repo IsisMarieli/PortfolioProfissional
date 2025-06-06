@@ -10,7 +10,7 @@ export function Header() {
                     <a href='#Sobre' className={styles.navLink}>Sobre Mim</a>
                     <a href='#' className={styles.navLink}>Projetos</a>
                 </nav>
-                <button className={styles.btnContatos}>Contatos</button>
+                <button className={styles.btnContatos}>Mensagem</button>
             </div>
         </div>
     )
