@@ -54,7 +54,7 @@ export default function ProjectsSection() {
                 <div className={styles.projectCard}>
                     <h3>AstroTask</h3>
                     <a href="#" target="_blank" rel="noopener noreferrer"><img className={styles.Imgs} src={AstroTask} alt="AstroTask" /></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor dui, dapibus gravida elit.</p>
+                    <p>Um aplicativo inteligente que cria listas de tarefas automaticamente com base em temas personalizados, como estudos, autocuidado, rotina doméstica, trabalho e metas pessoais. O app sugere tarefas práticas, bem divididas e com foco em produtividade, ajudando o usuário a organizar sua vida de forma leve e eficiente.</p>
                     <div className={styles.typeProjectWrapper}>
                         <button className={styles.typeProject}>UX/UI Design</button>
                         <button className={styles.typeProject}>Projeto Acadêmico</button>
