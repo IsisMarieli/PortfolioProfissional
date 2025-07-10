@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color:var(--black);
+    color: var(--gray-light);
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+:root {
+  --purple: rgb(157, 53, 254); 
+  --purple-primary: rgb(192, 124, 255);       
+  --purple-translucent: rgba(192, 124, 255, 0.5); 
+  --purple-intense: rgba(192, 124, 255, 0.899); 
+  
+
+  --white: white; 
+  --gray-light: #e7e7e7;          
+  --gray: #111;          
+  --black: black;                        
+  
+  --hover-effect: rgba(192, 124, 255, 0.1);   
+}
