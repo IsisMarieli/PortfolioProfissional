@@ -53,7 +53,7 @@ export default function ProjectsSection() {
                 </div>
                 <div className={styles.projectCard}>
                     <h3>AstroTask</h3>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><img className={styles.Imgs} src={AstroTask} alt="AstroTask" /></a>
+                    <a href="https://www.figma.com/proto/UEXtlfNlmqNyyqcpd46ZUG/AstroTask?page-id=0%3A1&node-id=1-2&p=f&t=s3lIGuny013Y0Wql-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer"><img className={styles.Imgs} src={AstroTask} alt="AstroTask" /></a>
                     <p>Um aplicativo inteligente que cria listas de tarefas automaticamente com base em temas personalizados, como estudos, autocuidado, rotina doméstica, trabalho e metas pessoais. O app sugere tarefas práticas, bem divididas e com foco em produtividade, ajudando o usuário a organizar sua vida de forma leve e eficiente.</p>
                     <div className={styles.typeProjectWrapper}>
                         <button className={styles.typeProject}>UX/UI Design</button>
