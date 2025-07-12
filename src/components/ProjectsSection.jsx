@@ -4,6 +4,7 @@ import OKRBB from "../assets/OKR.BB.svg";
 import TeArt from "../assets/TeArt.svg";
 import CadastroUsuarios from "../assets/CadastroUsuarios.svg";
 import AstroTask from "../assets/AstroTask.svg";
+import Pluraliza from "../assets/Pluraliza.svg";
 
 export default function ProjectsSection() {
     return (
@@ -58,6 +59,16 @@ export default function ProjectsSection() {
                     <div className={styles.typeProjectWrapper}>
                         <button className={styles.typeProject}>UX/UI Design</button>
                         <button className={styles.typeProject}>Projeto Acadêmico</button>
+                    </div>
+                </div>
+                <div className={styles.projectCard}>
+                    <h3>Pluraliza</h3>
+                    <a href="https://www.figma.com/proto/pbUqFKIrxz63mW4Lmil8nA/Plurariza-Academy?page-id=0%3A1&node-id=8-2&p=f&t=DzX8kZAF5I58g5XG-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2" target="_blank" rel="noopener noreferrer"><img className={styles.Imgs} src={Pluraliza} alt="Pluraliza" /></a>
+                    <p>Plurariza é uma plataforma de impacto social que conecta pessoas da comunidade LGBTQIAPN+ a oportunidades de educação gratuita, apoio por meio de doações, visibilidade profissional e fortalecimento de iniciativas inclusivas. A proposta é unir educação, saúde, tecnologia e cuidado em um só espaço digital, com foco em pluralidade, acolhimento e transformação.
+                    </p>
+                    <div className={styles.typeProjectWrapper}>
+                        <button className={styles.typeProject}>UX/UI Design</button>
+                        <button className={styles.typeProject}>Projeto Pessoal</button>
                     </div>
                 </div>
             </div>
