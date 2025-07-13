@@ -1,11 +1,19 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import styles from "../pages/Home/Home.module.css";
 import Prototipos from "../assets/prototipos.png";
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 export default function PreviewSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <section id='Home' className={styles.previewContainer}> {/* nome novo sem conflito */}
-      <div className={styles.textSection}>
+      <div data-aos="fade-right" className={styles.textSection}>
         <h1>UX/UI DESIGNER</h1>
         <h2><span>DEVELOPER FULLSTACK</span></h2>
         <p>Tecnologia é melhor quando une pessoas e resolve problemas.</p>
@@ -24,7 +32,8 @@ export default function PreviewSection() {
 
       <div className={styles.blur}></div>
 
-      <div className={styles.prototipos}>
+      <div data-aos="fade-left"
+        className={styles.prototipos}>
         <img src={Prototipos} alt="Prototipos" />
       </div>
     </section>
