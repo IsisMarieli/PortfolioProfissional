@@ -9,6 +9,7 @@ import TeArt from "../assets/TeArt.svg";
 import CadastroUsuarios from "../assets/CadastroUsuarios.svg";
 import AstroTask from "../assets/AstroTask.svg";
 import Pluraliza from "../assets/Pluraliza.svg";
+import CheckLab from "../assets/CheckLab.svg";
 
 export default function ProjectsSection() {
   useEffect(() => {
@@ -130,6 +131,25 @@ export default function ProjectsSection() {
           <div className={styles.typeProjectWrapper}>
             <button className={styles.typeProject}>UX/UI Design</button>
             <button className={styles.typeProject}>Projeto Pessoal</button>
+          </div>
+        </div>
+
+        <div
+          className={styles.projectCard}
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="600"
+          data-aos-offset="0"
+        >
+          <h3>CheckLab</h3>
+          <a href="https://isismarieli.github.io/Checklab-Project/" target="_blank" rel="noopener noreferrer">
+            <img className={styles.Imgs} src={CheckLab} alt="CheckLab" />
+          </a>
+          <p>Plataforma de Presença do Embarque Digital,
+            Fiz um projeto de modernização da interface do CheckLab, plataforma usada pelos alunos do Embarque Digital para acompanhar seus check-ins no laboratório de inovação.</p>
+          <div className={styles.typeProjectWrapper}>
+            <button className={styles.typeProject}>UX/UI Design</button>
+            <button className={styles.typeProject}>FrontEnd</button>
           </div>
         </div>
       </div>
